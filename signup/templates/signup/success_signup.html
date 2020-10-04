@@ -1,0 +1,14 @@
+{% extends "signup/base_generic.html" %}
+
+{% block content %}
+
+<h1>signup finished successfully!</h1>
+
+<h3>thanks for your signup!</h3>
+
+<p>
+    do you want to signup as other person?<br>
+    click here to <a href=" {% url 'signup:create-customer' %}">signup</a>
+</p>
+
+{% endblock %}
